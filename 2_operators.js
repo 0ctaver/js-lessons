@@ -1,11 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>123</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
 //бинарный плюс - относится к двум операндам
 let s = "моя" + "строка";
 document.write(s + "<br>"); // моястрока
@@ -69,11 +61,10 @@ for (a = 1, b = 3, c = a * b; a < 10; a++) {
  ...
 }
 
-</script>
-</head>
-<body>
-	<div>
+const fullAge = 25;
+const birthYear = 1995;
+const currentYear = 2020;
 
-</div>
-</body>
-</html>
+const isFullAge = currentYear - birthYear >= fullAge;
+console.log(isFullAge);
+

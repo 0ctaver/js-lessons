@@ -1,9 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>123</title>
-<script>
+
 const num = 42;
 const float = 42.42;
 const pow = 10e3;
@@ -51,11 +46,3 @@ function getRandomBetween(min, max) {
 }
 
 console.log (getRandomBetween(10, 42));
-</script>
-</head>
-<body>
-	<div>
-
-</div>
-</body>
-</html>

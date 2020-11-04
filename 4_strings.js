@@ -1,3 +1,10 @@
+const name = 'Neo';
+const output = `Wake up ${name ? 'Neo' : 'Trinity'}. The Matrix has you.`
+console.log (output);
+console.log (name.length);
+console.log (name.toUpperCase());
+console.log (name.toLowerCase());
+
 const title = 'Hi'
 
 const isVisible = () => Math.random() > 0.5
